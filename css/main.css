@@ -1,0 +1,21 @@
+body {
+  background-image:url('../images/forest-background.jpg');
+  margin-top:10%;
+  background-size:cover;
+}
+
+#quoteBox {
+  background-color:rgba(0,0,0,.7);
+  color:#FFFFFF;
+  padding:10px;
+}
+
+button {
+  margin:2% 2% 0 0;
+  outline:none !important;
+}
+
+#cite {
+  font-size:1em;
+  color:#FFFFFF;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang='en-US'>
+
+<head>
+  <title>Random Quote Generator</title>
+  <meta name='description' content='Listen to some relaxing bird sounds while reading inspirational quotes.' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta charset='UTF-8' />
+  <meta name='author' content='Samuel Cupidon' />
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='./css/main.css' />
+</head>
+
+<body>
+  <audio autoplay loop>
+    <source src='./sounds/amazing_natural_bird_sounds.mp3'>
+  </audio>
+  <div class='container-fluid'>
+    <div class='row-fluid'>
+      <div class='col-sm-6 col-sm-offset-3' id='quoteBox'>
+        <h1 class='text-center'>Random Quote Generator</h1><br>
+        <blockquote>
+        <div id='quote'></div>
+          <small><cite id='cite'></cite></small>
+        </blockquote>
+      </div><!--quotebox-->
+      <div class='col-xs-offset-2 col-xs-10 col-sm-8 col-sm-offset-4 col-md-7 col-md-offset-5' id='buttons'>
+        <a id="twitterButton" target='_blank'>
+          <button class='btn btn-primary'>Tweet it</button>
+        </a><!--twitterButton-->
+        <button class='btn btn-danger' id='quoteButton'>More advice</button>
+      </div><!--buttons-->
+    </div><!--row-fluid-->
+  </div><!--container-fluid-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src='./js/main.js'></script>
+</body>
+
+</html>
