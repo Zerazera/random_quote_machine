@@ -5,7 +5,8 @@ body {
 }
 
 #quoteBox {
-  background-color:rgba(0,0,0,.7);
+  background-color:rgb(0, 0, 0);
+  background-color:rgba(0, 0, 0, .7);
   color:#FFFFFF;
   padding:10px;
 }
@@ -18,4 +19,8 @@ button {
 #cite {
   font-size:1em;
   color:#FFFFFF;
+}
+
+small {
+  color:#FFFFFF !important;
 }
